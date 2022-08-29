@@ -8,6 +8,7 @@ Omogoča prikaz le teh in medsebojno primerjavo statistike igralcev.
 - Prikaz plus/minus kako koristen je igralec ekipi skozi sezono
 - Prikaz točkovne uspešnosti + napak igralca skozi sezono
 - Primerjava igralcev po statistiki (side by side comparison)
+- Primerjava igralcev po karakteristikah (višina, teža, sprejemalci, podajači)
 
 ## Mikrostoritve
 - Uporabniki
@@ -36,12 +37,12 @@ Omogoča prikaz le teh in medsebojno primerjavo statistike igralcev.
 ### Uporabniška logika
 
 Na aplikacijo se oseba najprej prijavi, potem pa jo aplikacija popelje na glavno stran, 
-kjer lahko igralce dodaja, na njih pritiska za bolj podrobno statistiko/grafe ter nasplošno primerja.
+kjer lahko igralce ali ekipe dodaja, na njih pritiska za bolj podrobno statistiko/grafe ter nasplošno primerja.
 
 
 ## Možne nadgradnje
 
-Kot nadgradnjo aplikacije se ahko doda primerjavo ekip po:
+Kot nadgradnjo aplikacije se lahko doda primerjavo ekip po:
 - win/loss razmerje
 - št. blokov/asov
 - uspešnost v napadu/sprejemu (perfekten sprejem v oklepaju) 
