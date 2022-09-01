@@ -4,11 +4,11 @@ Aplikacija, ki agregira in sprocesira statistične podatke dvoranske odbojke v S
 Omogoča prikaz le teh in medsebojno primerjavo statistike igralcev.
 
 ## Primeri uporabe
-- skupni seštevek in procentualna uspešnost igralca do tega trenutka sezone (napad,servis,sprejem) + št. odigranih tekem
-- Prikaz plus/minus kako koristen je igralec ekipi skozi sezono
-- Prikaz točkovne uspešnosti + napak igralca skozi sezono
-- Primerjava igralcev po statistiki (side by side comparison)
-- Primerjava igralcev po karakteristikah (višina, teža, sprejemalci, podajači)
+- Vsak statističen podatek na tekmo posameznega igralca skozi celotno sezono
+- Povprečno število točk na odigrano tekmo posameznega igralca
+- Procentualno povprečje Pozitivnega sprejema, Idealnega sprejema in napada
+- Število napak igralca na tekmo skozi celotno sezono (servis/sprejem/napad napake) 
+- Side by side comparison igralcev + kdo je boljši
 
 ## Mikrostoritve
 - Uporabniki
@@ -26,13 +26,9 @@ Omogoča prikaz le teh in medsebojno primerjavo statistike igralcev.
 
 ### Igralci
 
-    /igralci
-    GET - vrne vse igralce
-    POST - doda novega igralca
-      /<igralec_id>
-      GET - vrne podatke igralca
-      PUT - spremeni podatke igralca
-      DELETE - izbriše igralca
+- vrni igralca ali samo katerokoli njegovo specifično karakteristiko
+- spremeni igralcu katerokoli njegovo specifično karakteristiko
+- izbriši igralca ali samo katerokoli njegovo specifično karakteristiko
 
 ### Uporabniška logika
 
@@ -43,10 +39,7 @@ kjer lahko igralce ali ekipe dodaja, na njih pritiska za bolj podrobno statistik
 ## Možne nadgradnje
 
 Kot nadgradnjo aplikacije se lahko doda primerjavo ekip po:
-- win/loss razmerje
-- št. blokov/asov
-- uspešnost v napadu/sprejemu (perfekten sprejem v oklepaju) 
 - kill-on-reception
 - attack-after-dig 
-- plus/minus uspesnost
 - konsistentnost skozi nize
+- Primerjava igralcev po karakteristikah (višina, teža, sprejemalci, podajači)
