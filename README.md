@@ -25,4 +25,4 @@ Join our community today and take your volleyball analysis to the next level!
 - PDF scraped code can be found in [PDFScraping repository](https://github.com/Voliboli/PDFscraping)
 - Application backend code including Flask Server, GraphQL protocol and Postgres database interface can be found in [App-backend repository](https://github.com/Voliboli/App-backend)
 - Application frontend code can be found in [App-frontend](https://github.com/Voliboli/App-frontend)
-- In production this is running on Microk8s Kubernetes Cluster with pesistent storage and self-healing capabillities
+- In production this is running on Microk8s Kubernetes Cluster with pesistent storage and self-healing capabillities. Infrastructure configuration can be found [here](https://github.com/Voliboli/Infrastructure)
