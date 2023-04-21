@@ -16,3 +16,10 @@ Join our community today and take your volleyball analysis to the next level!
 - Scrape data of off PDF statistics document using `tabula-py`
 - Store and retrieve data from `Flask` Backend using `GraphQL` with `Postgres` database configured as a persistest storage
 - View and Analyze data on a WebPage created using `Streamlit`
+
+## Components reference
+
+- Web scraper code can be found in [WebScraping repository](https://github.com/Voliboli/WebScraping)
+- PDF scraped code can be found in [PDFScraping repository](https://github.com/Voliboli/PDFscraping)
+- Application backend code including Flask Server, GraphQL protocol and Postgres database interface can be found in [App-backend repository](https://github.com/Voliboli/App-backend)
+- Application frontend code can be found in [App-frontend](https://github.com/Voliboli/App-frontend)
