@@ -12,6 +12,7 @@ Join our community today and take your volleyball analysis to the next level!
 
 ## Main Features
 
-- Automatically scraping statistics from [odbojka.si](https://odbojka.si/) using Selenium
-- Store and retrieve data from Flask Backend using GraphQL with Postgres database configured as a persistest storage
-- View and Analyze data on a WebPage created using Streamlit
+- Automatically scraping statistics from [odbojka.si](https://odbojka.si/) using `Selenium`
+- Scrape data of off PDF statistics document using `tabula-py`
+- Store and retrieve data from `Flask` Backend using `GraphQL` with `Postgres` database configured as a persistest storage
+- View and Analyze data on a WebPage created using `Streamlit`
