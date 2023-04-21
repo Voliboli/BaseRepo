@@ -6,6 +6,8 @@ With the ability to upload your own match statistics in PDF format or search our
 Our user-friendly interface allows for easy navigation of the data, so you can focus on what's important - improving your game. 
 Join our community today and take your volleyball analysis to the next level!
 
+**Web page link:** [voliboli.lrk.si](https://voliboli.lrk.si/)
+
 ## Architecture
 
 ![Voliboli-arch (2)](https://user-images.githubusercontent.com/48418580/233632814-4b6c36d6-aa22-4492-8d75-b47bae6442dd.png)
